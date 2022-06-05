@@ -4,7 +4,7 @@
   "description": "proyecto 3 con node",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/Ivanakowalczuk/ob_node_2/issues"
   },
-  "homepage": "https://github.com/Ivanakowalczuk/ob_node_2#readme"
+  "homepage": "https://github.com/Ivanakowalczuk/ob_node_2#readme",
+  "dependencies": {
+    "winston": "^3.7.2"
+  }
 }
